@@ -5,27 +5,56 @@
   </head>
   <body>
     <h1 id="top">Akilah Parrish</h1>
-    
+    <!--
     <a href="#Home">Home</a><br />
     <a href="#About">About</a><br />
     <a href="#Project">Project</a><br />
     <a href="#Art">ArtBusiness</a><br />
     <a href="#Contact">Contact</a><br />
+    -->
     
-    <h2 id="Home">Home</h2>
-      <p>Welcome to Akilah's world!</p>
-    <h2 id="About">About</h2>
-      <p>Akilah Parrish is an artist, musican, and ... that aspires to work in the center of the
-        intersection of art and technology. She is striving to become a technical director in the
-        visual effects industry, but continues to hone her skills in 2D and 3D art.</p>
-    <h2 id="Project">Project</h2>
-    <h2 id="ArtBusiness">Akilah's Art</h2>
-      <p>AkilahsArt is my art company. I specialize in 2D realistic pencil drawings. Please reference
-        my gallery to see my work! :)</p>
-    <h2 id="Contact">Contact</h2>
-      <p> If you would like to contact me further about job opprotunies or commissions please email
-      me at the following address: <a href="mailto:akilahparrish@gmail.com">Email Akilah</a></p>
+    <!--Tabs for Webpage-->
+    <section>
+      <input type="radio" name="tabs" id="home" checked="checked"/>
+      <label for="home">Home</label>
+      <input type="radio" name="tabs" id="about"/>
+      <label for="about">About</label>
+      <input type="radio" name="tabs" id="project"/>
+      <label for="project">CSProject</label>
+      <input type="radio" name="tabs" id="artBusiness"/>
+      <label for="artBusiness">AkilahsArt</label>
+      <input type="radio" name="tabs" id="contact">
+      <label for="contact">Contact</label>
+      
+      <div class="tab_content" id="content_home">
+        <h2>Home</h2>
+        <p>Welcome to Akilah's world!</p>    
+      </div>
+      
+      <div class="tab_content" id="content_about">
+        <h2 id="About">About</h2>
+        <p>Akilah Parrish is an artist, musican, and ... that aspires to work in the center of the
+          intersection of art and technology. She is striving to become a technical director in the
+          visual effects industry, but continues to hone her skills in 2D and 3D art.</p>
+      </div>
+      
+      <div class="tab_content" id="content_project">
+        <h2 id="Project">Project</h2>
+      </div>
+      
+      <div class="tab_content" id="content_artBusiness">
+        <h2 id="ArtBusiness">Akilah's Art</h2>
+        <p>AkilahsArt is my art company. I specialize in 2D realistic pencil drawings. Please reference
+          my gallery to see my work! :)</p>
+      </div>
 
-    <p><a href="#top">Top</a></p>
+      <div class="tab_content" id="content_contact">
+        <h2 id="Contact">Contact</h2>
+        <p> If you would like to contact me further about job opprotunies or commissions please email
+          me at the following address: <a href="mailto:akilahparrish@gmail.com">Email Akilah</a></p>
+      </div>
+      
+    </section>
+    <!--<p><a href="#top">Top</a></p>-->
   </body>
 </html>
