@@ -1,1 +1,30 @@
+section {
+  max-width: 1000px;
+  width: 100%;
+  min-height: 300px;
+}
 
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  padding: 10px 45px;
+  border-radius: 5px;
+  background-color: #d5d5d5;
+  color: #000;
+  cursor: pointer;
+}
+
+.tab_content {
+  display: none;
+  margin: 20px 0px;
+}
+
+#home:checked~#content_home,
+#about:checked~#content_about,
+#project:checked~#content_project,
+#artBusiness:checked~#content_artBusiness,
+#contact:checked~#content_contact {
+  display: block;
+}
