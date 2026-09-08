@@ -53,14 +53,14 @@ label {
   font-size: 3em;
   color: white;
   height: 60px;
-  width: 60px
+  width: 60px;
   border-radius: 50%;
   padding-bottom: 0.1em;
   cursor: pointer;
   position: fixed;
   position-anchor: --carousel;
   position-area: right center;
-  translate: -50%
+  translate: -50%;
 }
 
 .carousel::scroll-button(left) {
