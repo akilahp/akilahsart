@@ -16,19 +16,6 @@ label {
   cursor: pointer;
 }
 
-.tab_content {
-  display: none;
-  margin: 20px 0px;
-}
-
-#home:checked~#content_home,
-#about:checked~#content_about,
-#project:checked~#content_project,
-#artBusiness:checked~#content_artBusiness,
-#contact:checked~#content_contact {
-  display: block;
-}
-
 .carousel {
   margin: 3em auto;
   display: flex;
@@ -43,4 +30,17 @@ label {
   border-radius: 0.5em;
   text-align: center;
   align-content: center;
+}
+
+.tab_content {
+  display: none;
+  margin: 20px 0px;
+}
+
+#home:checked~#content_home,
+#about:checked~#content_about,
+#project:checked~#content_project,
+#artBusiness:checked~#content_artBusiness,
+#contact:checked~#content_contact {
+  display: block;
 }
