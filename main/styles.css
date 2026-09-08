@@ -38,7 +38,7 @@ label {
 .card {
   flex: 0 0 20em;
   height: 12em;
-  background-color: var(--primary-color);
+  background-color: #072A6C;
   padding: 1em;
   border-radius: 0.5em;
   text-align: center;
