@@ -14,20 +14,11 @@ label {
   background-color: #d5d5d5;
   color: #000;
   cursor: pointer;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: 10px;
-  width: 100%;
-  dispaly: flex;
 }
 
 .tab_content {
-  display: flex;
+  display: none;
   margin: 20px 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 5px;
-  
 }
 
 #home:checked~#content_home,
