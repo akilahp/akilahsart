@@ -3,7 +3,8 @@ section {
   width: 100%;
   min-height: 100vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 8px;
   align-items: flex-start;
   padding: 15px 20px;
 }
