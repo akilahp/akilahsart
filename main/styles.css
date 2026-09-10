@@ -1,11 +1,16 @@
 section {
-  max-width: 100%;
+  max-width: 1000px;
   width: 100%;
-  min-height: 100vh;
+  min-height: 300px;
 }
 
 input[type="radio"] {
   display: none;
+}
+
+input[type="radio"]:checked+label {
+  background-color: #ADD8E6;
+  color: #FFF;
 }
 
 label {
@@ -14,6 +19,7 @@ label {
   background-color: #d5d5d5;
   color: #000;
   cursor: pointer;
+  transition: 0.4s;
 }
 
 .tab_content {
