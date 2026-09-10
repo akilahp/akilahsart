@@ -68,7 +68,7 @@ input[type="radio"]:checked + label {
 label {
   font-family: 'Fira Code', monospace;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   
