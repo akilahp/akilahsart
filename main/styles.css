@@ -8,23 +8,23 @@
   position: relative;
 }
 
-.tab_header {
+.tabs_header {
   display: flex;
   align-items: center;
   border-bottom: 2px;
   padding-bottom: 10px;
 }
 
-.tab_header input[type="radio"] {
+.tabs_header input[type="radio"] {
   display: none;
 }
 
-.tab_header input[type="radio"]:checked + label {
+.tabs_header input[type="radio"]:checked + label {
   background-color: #ADD8E6;
   color: #FFF;
 }
 
-.tab_header label {
+.tabs_header label {
   grid-row: 1;
   padding: 10px 45px;
   border-radius: 5px;
@@ -35,7 +35,7 @@
   margin-left: 5px;
 }
 
-.tab_header label:of-type(1) {
+.tabs_header label:of-type(1) {
   margin-left: auto;
 }
 
