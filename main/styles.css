@@ -10,7 +10,7 @@ input[type="radio"] {
   display: none;
 }
 
-input[type="radio"]:of-type(1) {
+input[type="radio"]:of-type(1) + label {
   margin-left: auto;
 }
 
