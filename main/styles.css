@@ -1,25 +1,30 @@
-.tabs-container {
-  display: grid;
+.tabs {
+  /*display: grid;
   grid-template-columns: repeat(5, auto);
   justify-content: end;
   position: relative;
-  padding-top: 40px;
+  padding-top: 40px;*/
+  width: 100%;
+  position: relative;
 }
 
-.tab-group {
-  display: contents;
+.tab_header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px;
+  padding-bottom: 10px;
 }
 
-.tab-group input[type="radio"] {
+.tab_header input[type="radio"] {
   display: none;
 }
 
-.tab-group input[type="radio"]:checked + label {
+.tab_header input[type="radio"]:checked + label {
   background-color: #ADD8E6;
   color: #FFF;
 }
 
-.tab-group label {
+.tab_header label {
   grid-row: 1;
   padding: 10px 45px;
   border-radius: 5px;
@@ -30,22 +35,31 @@
   margin-left: 5px;
 }
 
-.tab-group .tab_content {
+.tab_header label:of-type(1) {
+  margin-left: auto;
+}
+
+.tab_content {
   display: none;
-  grid-row: 2;
+  width: 100%;
+  border: 1px;
+  margin: 20px 0px;
+  padding-top: 20px;
+  
+  /*grid-row: 2;
   grid-column: 1/-1;
   position: absolute;
   left: 0;
   right: 0;
   top: 40px;
-  margin: 20px 0px;
+  */
 }
 
-#home:checked~#content_home,
-#about:checked~#content_about,
-#project:checked~#content_project,
-#artBusiness:checked~#content_artBusiness,
-#contact:checked~#content_contact {
+#home:checked ~.tab_content #content_home,
+#about:checked ~ .tab_content #content_about,
+#project:checked ~ .tab_content #content_project,
+#artBusiness:checked ~ .tab_content #content_artBusiness,
+#contact:checked ~ .tab_content #content_contact {
   display: block;
 }
 
