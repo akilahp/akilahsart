@@ -6,7 +6,7 @@ h1 {
 
 h2, h3 {
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-weight: 650;
+  font-weight: 550;
 }
 
 p {
@@ -14,7 +14,6 @@ p {
   font-weight: 500;
   font-size: 0.85rem;
   letter-spacing: 0.12em;
-  text-transform: uppercase;
 }
 
 .tabs_header {
