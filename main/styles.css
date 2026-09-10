@@ -10,9 +10,9 @@ h2, h3 {
 }
 
 p {
-  font-family: 'Fira Code', monospace;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
-  font-size: 0.85rem;
+  font-size: 2rem;
   letter-spacing: 0.12em;
 }
 
@@ -67,7 +67,7 @@ input[type="radio"]:checked + label {
 label {
   font-family: 'Fira Code', monospace;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 10px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   
