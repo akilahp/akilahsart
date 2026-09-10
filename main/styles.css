@@ -6,7 +6,7 @@ h1 {
 
 h2 {
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 650;
 }
 
 h3 {
@@ -46,6 +46,12 @@ h3 {
 }
 
 .tab_content {
+  font-family: 'Fira Code', monospace;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  
   display: none;
   width: 100%;
   box-sizing: border-box;
