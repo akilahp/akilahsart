@@ -1,3 +1,12 @@
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+h2,h3 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 .tabs_header {
   display: flex;
   align-items: center;
