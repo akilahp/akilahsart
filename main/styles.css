@@ -1,29 +1,43 @@
-section {
-  max-width: 1000px;
-  width: 100%;
-  min-height: 300px;
+.tabs-container {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: end;
+  position: relative;
+  padding-top: 40px;
 }
 
-input[type="radio"] {
+.tab-group {
+  display: contents;
+}
+
+.tab-group input[type="radio"] {
   display: none;
 }
 
-input[type="radio"]:checked+label {
+.tab-group input[type="radio"]:checked + label {
   background-color: #ADD8E6;
   color: #FFF;
 }
 
-label {
+.tab-group label {
+  grid-row: 1;
   padding: 10px 45px;
   border-radius: 5px;
   background-color: #d5d5d5;
   color: #000;
   cursor: pointer;
   transition: 0.4s;
+  margin-left: 5px;
 }
 
-.tab_content {
+.tab-group .tab_content {
   display: none;
+  grid-row: 2;
+  grid-column: 1/-1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40px;
   margin: 20px 0px;
 }
 
