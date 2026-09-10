@@ -50,7 +50,7 @@ header:has(#about:checked) ~ #content_about,
 header:has(#project:checked) ~ #content_project,
 header:has(#artBusiness:checked) ~ #content_artBusiness,
 header:has(#contact:checked) ~ #content_contact {
-  display: block;
+  display: block !important;
 }
 
 .carousel {
