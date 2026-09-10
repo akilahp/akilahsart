@@ -45,11 +45,11 @@ label {
   */
 }
 
-#home:checked ~ #content_home,
-#about:checked ~ #content_about,
-#project:checked ~ #content_project,
-#artBusiness:checked ~ #content_artBusiness,
-#contact:checked ~ #content_contact {
+.tabs_header:has(#home:checked) ~ #content_home,
+.tabs_header:has(#about:checked) ~ #content_about,
+.tabs_header:has(#project:checked) ~ #content_project,
+.tabs_header:has(#artBusiness:checked) ~ #content_artBusiness,
+.tabs_header:has(#contact:checked) ~ #content_contact {
   display: block;
 }
 
